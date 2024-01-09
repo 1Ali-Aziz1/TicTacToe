@@ -16,7 +16,7 @@ public class ticTacToe {
         frame.getContentPane().setBackground(new Color(25,25,25));
         frame.setBackground(new Color(25,25,25));
         frame.setForeground(new Color(25,25,25));
-        frame.setResizable(false);
+//        frame.setResizable(false);
 
     }
 }
