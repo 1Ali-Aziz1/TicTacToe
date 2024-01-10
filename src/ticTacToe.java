@@ -6,6 +6,12 @@ public class ticTacToe {
         JFrame frame = new JFrame("Tic-Tac-Toe");
         JPanel panel = new JPanel();
         JLabel label = new JLabel("Label");
+    Random random = new Random();
+    JPanel title_panel = new JPanel();
+    JPanel button_panel = new JPanel();
+    JLabel textfield = new JLabel();
+    JButton[] buttons = new JButton[9];
+    boolean player1_turn;
     public ticTacToe(){
         panel.setLayout(new FlowLayout());
         frame.add(panel);
