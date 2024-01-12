@@ -23,6 +23,7 @@ public class ticTacToe {
             button_panel.add(buttons[i]);
             buttons[i].setFont(new Font("MV Boli",Font.BOLD,120));
             buttons[i].setFocusable(false);
+            frame.add(buttons[i]);
 //            buttons[i].addActionListener(this);
         }
 
