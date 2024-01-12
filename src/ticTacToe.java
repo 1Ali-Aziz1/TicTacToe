@@ -38,6 +38,7 @@ public class ticTacToe {
         frame.setForeground(new Color(25,25,25));
 //        frame.setResizable(false);
 
+        changePlayer();
     }
     private void changePlayer(){
         if (playerXTurn == true){
